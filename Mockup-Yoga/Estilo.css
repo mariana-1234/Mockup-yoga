@@ -1,0 +1,90 @@
+body {
+    background-image: url(./Img/fondo2.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: Honey;
+    src: url(./Font/Honey\ Florist\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+    font-family: Maiandra;
+    src: url(./Font/Maiandra\ GD\ Regular.ttf);
+}
+
+a:hover {
+    border-bottom: solid 3px black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+a:active {
+    color: rgb(22, 106, 148);
+    border-bottom: solid 3px whitesmoke;
+    transition: none;
+}
+
+a {
+    font-family: Honey;
+    margin: 3px;
+    text-decoration: none;
+    height: 25px;
+    width: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background-color: #c3e2ffb5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20pt;
+    gap: 2.5 rem;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-family: Honey;
+    font-size: 40pt;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem auto;
+    color: black;
+}
+
+p {
+    font-family: Maiandra;
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo1 {
+    font-family: Honey;
+    font-size: 25pt;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo2 {
+    font-family: Honey;
+    font-size: 25pt;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.body2{
+    display: flex;
+    align-content: center;
+    margin: 2rem 4rem;
+    gap: 5rem;
+}
